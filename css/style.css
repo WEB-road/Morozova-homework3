@@ -9,11 +9,6 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-
-nav,footer,header,aside{display: block;}
-
 html,body{
 	height: 100%;
 	width: 100%;
@@ -58,27 +53,22 @@ body{
    width: 1245px;
    min-height: 100%; 
    font-family: "Roboto";
-   margin: 50px 60px 0px 60px;
-   /overflow: hidden;
-   display: flex;
-   flex-direction: column;
+   margin: 50px 60px;
    flex: 1 1 auto; 
 }
 .block{
     display: flex;
     justify-content: space-between;
+    color: #161616;
+    font-weight: 700;
 }
 .block_item{
     font-size: 23px;
     letter-spacing: 1px;
-    color: #161616;
-    font-weight: 700;
 }
 .block_item1{
     font-size: 18px;
     letter-spacing: 0px;
-    color: #161616;
-    font-weight: 700;
 }
 .block1{
     width: 1170px;
@@ -86,7 +76,7 @@ body{
     background-color: #e9e9e9; 
     display: flex;
     justify-content: center;
-    margin: 52px 0px 108px 38px;
+    margin: 52px 0 108px 38px;
 }
 .block2{
     display: flex;
@@ -94,8 +84,7 @@ body{
 }
 .block_text2{
     width: 477px;
-    height: 263px;
-    margin: 0px 118px 0px 42px;
+    margin: 0 118px 0 42px;
 }
 .block_item2{
     font-size: 33px;
@@ -109,7 +98,7 @@ body{
     line-height: 30px;
     color: #545454;
     font-weight: 300; 
-    padding: 93px 0px 0px 105px;   
+    padding: 93px 0 0 105px;   
 } 
 .block_figure1{
     width: 557px;
@@ -119,12 +108,11 @@ body{
 .block3{
     display: flex;
     flex-direction: row;
-    margin: 138px 0px 118px 42px;
+    margin: 138px 0 118px 42px;
 }
 .block_text3{
     width: 190px;
-    height: 90px;
-    margin: 0px 392px 0px 0px;
+    margin: 0 392px 0 0;
 }    
 .block_item4{
     font-size: 33px;
@@ -137,12 +125,11 @@ body{
     letter-spacing: 0px;
     color: #545454;
     font-weight: 300;
-    padding: 44px 0px 0px 13px;
+    padding: 44px 0 0 13px;
 }
 .block_text4{
     width: 499px;
-    height: 182px;
-    margin: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
 }    
 .block_item6{
     font-size: 33px;
@@ -156,7 +143,7 @@ body{
     color: #545454;
     line-height: 30px;
     font-weight: 300;
-    padding: 43px 0px 0px 16px;
+    padding: 43px 0 0 16px;
 }
 .block4{
     display: flex;
@@ -173,7 +160,7 @@ body{
     width: 370px;
     height: 280px;
     background-color: #e9e9e9;
-    margin: 0 16px 0 0px;
+    margin: 0 16px 0 0;
 }
 .block_figure4{
     width: 370px;
@@ -183,12 +170,11 @@ body{
 .block5{
     display: flex;
     flex-direction: row;
-    margin: 133px 0px 124px 42px;
+    margin: 133px 0 124px 42px;
 }
 .block_text5{
     width: 382px;
-    height: 91px;
-    margin: 0px 201px 0 0
+    margin: 0 201px 0 0
 }    
 .block_item8{
     font-size: 33px;
@@ -201,11 +187,10 @@ body{
     letter-spacing: 0px;
     color: #545454;
     font-weight: 300;
-    padding: 43px 0px 0px 14px;
+    padding: 43px 0 0 14px;
 }
 .block_text6{
     width: 504px;
-    height: 182px;
 }    
 .block_item10{
     font-size: 33px;
@@ -219,7 +204,7 @@ body{
     color: #545454;
     font-weight: 300;
     line-height: 30px;
-    padding: 43px 0px 0px 15px;
+    padding: 43px 0 0 15px;
 }
 .block6{
     display: flex;
@@ -244,14 +229,13 @@ body{
     height: 574px;
     background-color: #e9e9e9; 
     justify-content: center;
-    margin: 30px 0px 95px 55px;
+    margin: 30px 0 95px 55px;
 }
 .block8{
     display: flex;
     flex-direction: row;
-    margin: 0px 0px 130px 527px;
+    margin: 0 0 130px 527px;
     width: 194px;
-    height: 44px;
     border: 1px solid #161616;
     background-color: #ffffff;
     font-size: 15px;
@@ -264,14 +248,12 @@ body{
 .block9{
     display: flex;
     flex-direction: row;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0 0 0;
 }
 .block_item12{
     width: 104px;
-    height: 47px;
     font-size: 15px;
     letter-spacing: 0px;
-    /line-height: 33px;
     color:  #999999;
     font-weight: 300;
     line-height: 33px;
@@ -282,21 +264,17 @@ body{
 }
 .block_item13{
     width: 71px;
-    height: 143px;
     font-size: 15px;
     letter-spacing: 0px;
-    /line-height: 33px;
     color: #999999;
     font-weight: 300;
     line-height: 33px;
-    margin: 0 261px 0px 0px;
+    margin: 0 261px 0 0;
 }
 .block_item14{
     width: 114px;
-    height: 146px;
     font-size: 15px;
     letter-spacing: 0px;
-    /line-height: 33px;
     color: #999999;
     font-weight: 300;
     line-height: 33px;
